@@ -1,0 +1,23 @@
+# directory patterns (currently just dirs starting with dot)
+/.*/
+
+# directories
+node_modules/
+tmp/
+vendor/
+
+# file patterns
+*.bak
+*.log
+*.secret
+*.secret.*
+*.swp
+*.tmp
+
+.env
+.env.*
+
+# specific files
+.phpstorm.meta.php
+_ide_helper.php
+docker-compose.override.yml
